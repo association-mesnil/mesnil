@@ -49,3 +49,17 @@ img {
 	width: 100%;
 }
 
+.radio {
+	background-color: #fafafa;
+	border: 0;
+	height: 100px;
+	margin: 25px;
+	padding: 25px;
+	width: 75%;
+}
+
+@media only screen and (max-width: 1200px) {
+	main {
+		width: 95%;
+	}
+}
