@@ -1,6 +1,4 @@
-# Association Mesnil
+<img tile="Association Mesnil" alt="Logo Association Mesnil" src="assets/img/logo-asso-mesnil.jpg">
 
-## Organisation d'évènements culturels
-
-contact [at] thisdomain
+**courriel :** contact [at] thisdomain
 

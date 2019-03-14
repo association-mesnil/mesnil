@@ -1,4 +1,4 @@
 # Association Mesnil
 
-Website of [mesnil.co](https://mesnil.co).
+Organisation d'évènements culturels : [mesnil.co](https://mesnil.co).
 
