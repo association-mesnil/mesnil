@@ -18,13 +18,6 @@ body {
 	width: 100%;
 }
 
-body:before {
-	content: '';
-	display: inline-block;
-	height: 100%;
-	vertical-align: middle;
-}
-
 main {
 	display: inline-block;
 	width: 40%;
@@ -49,13 +42,25 @@ img {
 	width: 100%;
 }
 
+a {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
 .radio {
 	background-color: #fafafa;
 	border: 0;
 	height: 100px;
-	margin: 25px;
-	padding: 25px;
-	width: 75%;
+  margin: 25px 0;
+  padding: 25px;
+  width: 100%;
+  width: calc(100% - 50px);
+}
+
+.social {
 }
 
 @media only screen and (max-width: 1200px) {
@@ -63,3 +68,5 @@ img {
 		width: 95%;
 	}
 }
+
+/* vim: set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab: */
