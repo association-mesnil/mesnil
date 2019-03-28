@@ -1,0 +1,38 @@
+/*
+ * This CSS superseeds the azuracast CSS so full paths are mandatory.
+ *
+ * BACKUP THIS FILE TO https://github.com/association-mesnil/mesnil/tree/master/radio
+ */
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body.page-minimal {
+  background: none;
+}
+
+body.page-minimal .public-page {
+  background: url('https://mesnil.co/assets/img/logo-radio-mesnil.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #ffffff;
+  background-position: center;
+  height: 100%;
+  height: calc(100% - 200px);
+}
+
+body.page-minimal .public-page .card {
+  bottom: 0;
+  left: 0;
+  background-color: #fafafa;
+  position: absolute;
+  width: 100%;
+}
+

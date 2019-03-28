@@ -1,0 +1,21 @@
+/*
+ * This CSS superseeds the azuracast CSS so full paths are mandatory.
+ * 
+ * BACKUP THIS FILE TO https://github.com/association-mesnil/mesnil/tree/master/radio
+ */
+
+header.navbar {
+  background: none;
+  background-color: #333 !important;
+}
+
+header.navbar:before {
+  content: "Mesnil'Radio";
+  font-weight: bold;
+  font-size: 25px;
+}
+
+header.navbar .navbar-brand {
+  display: none;
+}
+
