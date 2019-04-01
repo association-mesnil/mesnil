@@ -53,18 +53,22 @@ header h1 {
   margin: 0;
 }
 
+figure > img{
+	align-self: center;
+}
+
 figure{
 	margin: 0;
 	position: relative;
 	display: flex;
 	justify-content: center;
-	align-self: center;
 }
 
 figcaption{
 	position: absolute;
-	bottom: 50%;
-	width: 30%;
+	bottom: 49%;
+	width: 50%;
+}
 }
 
 /*************/
@@ -72,9 +76,11 @@ figcaption{
 /*************/
 
 main {
-	width: 100%;
+	width: 85%;
 	position: fixed;
 	bottom: 20px;
+	transform-origin: center;
+  transform: translateX(10%);
 }
 
 main .radio {
