@@ -53,7 +53,7 @@ header h1 {
   margin: 0;
 }
 
-figure > img{
+#background{
 	align-self: center;
 }
 
@@ -69,18 +69,15 @@ figcaption{
 	bottom: 49%;
 	width: 50%;
 }
-}
 
 /*************/
 /* MAIN */
 /*************/
 
 main {
-	width: 85%;
+	width: 100%;
 	position: fixed;
 	bottom: 20px;
-	transform-origin: center;
-  transform: translateX(10%);
 }
 
 main .radio {
@@ -89,8 +86,7 @@ main .radio {
 	height: 90px;
   margin: 25px 0;
   padding: 10px;
-  width: 100%;
-  width: calc(100% - 50px);
+  width: calc(100% - 200px);
   border-radius: 10px;
 	box-shadow: 0 0 4px black;
 }
@@ -124,10 +120,17 @@ footer .social img {
 /*************/
 
 @media screen and (max-width: 800px) {
+	main{
+		bottom: 50px;
+	}
+
 	footer {
+		width: 100%;
 		flex-direction: row;
 		position: initial;
 		justify-content: center;
+		position: fixed;
+		bottom: 0;
 	}
 
 	footer .social img{
