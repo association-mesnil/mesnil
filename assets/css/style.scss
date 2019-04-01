@@ -53,12 +53,28 @@ header h1 {
   margin: 0;
 }
 
+figure{
+	margin: 0;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-self: center;
+}
+
+figcaption{
+	position: absolute;
+	bottom: 50%;
+	width: 30%;
+}
+
 /*************/
 /* MAIN */
 /*************/
 
 main {
 	width: 100%;
+	position: fixed;
+	bottom: 20px;
 }
 
 main .radio {
