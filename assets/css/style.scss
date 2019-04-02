@@ -57,7 +57,7 @@ header{
 }
 
 header img {
-	width: 100%;
+	width: 60%;
 }
 
 header h1 {
@@ -143,5 +143,8 @@ footer .social img {
 }
 
 @media screen and (max-width: 500px) {
+	header img {
+		width: 100%;
+	}
 }
 /* vim: set tabstop=2 softtabstop=2 shiftwidth=2 expandtab smarttab: */
