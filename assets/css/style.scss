@@ -17,6 +17,10 @@ html {
 }
 
 body {
+	background-image: url(assets/img/background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 	background-color: #fafafa;
 	color: #fafafa;
 	font-family: sans-serif;
@@ -46,28 +50,11 @@ p {
 /*************/
 
 header img {
-	width: 100%;
+	width: 70%;
 }
 
 header h1 {
   margin: 0;
-}
-
-#background{
-	align-self: center;
-}
-
-figure{
-	margin: 0;
-	position: relative;
-	display: flex;
-	justify-content: center;
-}
-
-figcaption{
-	position: absolute;
-	bottom: 49%;
-	width: 50%;
 }
 
 /*************/
