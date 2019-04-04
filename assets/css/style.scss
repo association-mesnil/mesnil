@@ -1,6 +1,3 @@
----
----
-
 /*************/
 /* NORMALIZE */
 /*************/
@@ -83,6 +80,10 @@ main .radio {
   width: calc(100% - 400px);
   border-radius: 10px;
 	box-shadow: 0 0 4px black;
+}
+
+#vinyle_logo{
+	display: none;
 }
 
 /*************/
