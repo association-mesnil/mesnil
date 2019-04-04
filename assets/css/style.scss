@@ -15,9 +15,9 @@ html {
 
 body {
 	background-image: url('https://images.pexels.com/photos/289649/pexels-photo-289649.jpeg?cs=srgb&dl=abstract-art-background-289649.jpg&fm=jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	background-position: center;
 	background-color: #fafafa;
 	color: #fafafa;
 	font-family: sans-serif;
@@ -75,16 +75,18 @@ main .radio {
 	background-color: rgba(255,255,255,.5);
 	border: 0;
 	height: 90px;
-  margin: 10px 0;
-  padding: 10px;
-  width: calc(100% - 400px);
-  border-radius: 10px;
+  	margin: 10px 0;
+  	padding: 10px;
+  	width: calc(100% - 400px);
+  	border-radius: 10px;
 	box-shadow: 0 0 4px black;
 }
 
+/*
 #vinyle_logo{
 	display: none;
 }
+*/
 
 /*************/
 /* FOOTER */
@@ -101,12 +103,12 @@ footer {
 
 footer .social img {
 	background-color: rgba(255,255,255, .9);
-  border-radius: 10px;
+  	border-radius: 10px;
 	box-shadow: 0 0 10px black;
-  height: 40px;
+ 	height: 40px;
 	width: 40px;
-  padding: 5px;
-  margin: 5px;
+  	padding: 5px;
+  	margin: 5px;
 }
 
 /*************/
