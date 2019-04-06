@@ -17,7 +17,7 @@ html {
 }
 
 body {
-	background-image: url('https://images.pexels.com/photos/289649/pexels-photo-289649.jpeg?cs=srgb&dl=abstract-art-background-289649.jpg&fm=jpg');
+	background-image: url('https://images.pexels.com/photos/370799/pexels-photo-370799.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -113,6 +113,12 @@ footer .social img {
 	width: 40px;
   	padding: 5px;
   	margin: 5px;
+}
+
+footer .social img:hover{
+	transform: scale(1.05);
+	transition-duration: 1.5s;
+	transition-property: transform;
 }
 
 /*************/
